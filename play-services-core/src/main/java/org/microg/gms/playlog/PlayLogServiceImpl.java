@@ -20,9 +20,9 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.playlog.internal.IPlayLogService;
-import com.google.android.gms.playlog.internal.LogEvent;
-import com.google.android.gms.playlog.internal.PlayLoggerContext;
+import com.mgoogle.android.gms.playlog.internal.IPlayLogService;
+import com.mgoogle.android.gms.playlog.internal.LogEvent;
+import com.mgoogle.android.gms.playlog.internal.PlayLoggerContext;
 
 import java.util.List;
 

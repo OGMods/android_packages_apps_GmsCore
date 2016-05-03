@@ -21,7 +21,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 public abstract class AssistantActivity extends Activity {
     private static final int TITLE_MIN_HEIGHT = 64;

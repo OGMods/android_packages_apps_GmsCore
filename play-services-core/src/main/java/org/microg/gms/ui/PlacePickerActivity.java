@@ -36,12 +36,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.google.android.gms.R;
-import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.location.places.internal.PlaceImpl;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
+import com.mgoogle.android.gms.R;
+import com.mgoogle.android.gms.common.api.CommonStatusCodes;
+import com.mgoogle.android.gms.common.api.Status;
+import com.mgoogle.android.gms.location.places.internal.PlaceImpl;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.LatLngBounds;
 
 import org.microg.gms.location.LocationConstants;
 import org.microg.gms.maps.BackendMapView;

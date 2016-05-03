@@ -1,0 +1,162 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   .idea/.name
+#	new file:   .idea/compiler.xml
+#	new file:   .idea/copyright/profiles_settings.xml
+#	new file:   .idea/encodings.xml
+#	new file:   .idea/gradle.xml
+#	new file:   .idea/libraries/animated_vector_drawable_23_3_0.xml
+#	new file:   .idea/libraries/appcompat_v7_23_3_0.xml
+#	new file:   .idea/libraries/circleimageview_1_2_1.xml
+#	new file:   .idea/libraries/jackson_core_2_3_0.xml
+#	new file:   .idea/libraries/jts_1_13.xml
+#	new file:   .idea/libraries/okio_1_2_0.xml
+#	new file:   .idea/libraries/osmosis_osm_binary_0_43_1.xml
+#	new file:   .idea/libraries/protobuf_java_2_4_1.xml
+#	new file:   .idea/libraries/slf4j_android_1_7_6.xml
+#	new file:   .idea/libraries/slf4j_api_1_7_6.xml
+#	new file:   .idea/libraries/support_annotations_23_3_0.xml
+#	new file:   .idea/libraries/support_v4_23_3_0.xml
+#	new file:   .idea/libraries/support_vector_drawable_23_3_0.xml
+#	new file:   .idea/libraries/unifiednlp_compat_unifiednlp_compat.xml
+#	new file:   .idea/libraries/vtm_0_6_0_SNAPSHOT.xml
+#	new file:   .idea/libraries/vtm_android_0_6_0_SNAPSHOT.xml
+#	new file:   .idea/libraries/vtm_extras_0_6_0_SNAPSHOT.xml
+#	new file:   .idea/libraries/vtm_themes_0_6_0_SNAPSHOT.xml
+#	new file:   .idea/libraries/wearable_lib_wearable_lib_0_1_0_1_g5c24ada.xml
+#	new file:   .idea/libraries/wire_runtime_1_6_1.xml
+#	new file:   .idea/misc.xml
+#	new file:   .idea/modules.xml
+#	new file:   .idea/runConfigurations.xml
+#	new file:   .idea/workspace.xml
+#	new file:   build.gradle
+#	new file:   extern/MicroGUiTools
+#	new file:   extern/UnifiedNlpApi
+#	new file:   gradlew.bat
+#	deleted:    microg-ui-tools
+#	modified:   patches/android_frameworks_base-M.patch
+#	deleted:    play-services-api
+#	modified:   play-services-core/build.gradle
+#	modified:   play-services-core/proguard-rules.pro
+#	modified:   play-services-core/src/main/AndroidManifest.xml
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/ads/AdActivity.java -> play-services-core/src/main/java/com/mgoogle/android/gms/ads/AdActivity.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/ads/AdManagerCreatorImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/ads/AdManagerCreatorImpl.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/analytics/service/AnalyticsService.java -> play-services-core/src/main/java/com/mgoogle/android/gms/analytics/service/AnalyticsService.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/auth/GetToken.java -> play-services-core/src/main/java/com/mgoogle/android/gms/auth/GetToken.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/auth/TokenActivity.java -> play-services-core/src/main/java/com/mgoogle/android/gms/auth/TokenActivity.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/common/security/ProviderInstallerImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/common/security/ProviderInstallerImpl.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/common/ui/SignInButtonCreatorImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/common/ui/SignInButtonCreatorImpl.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/gcm/http/GoogleHttpService.java -> play-services-core/src/main/java/com/mgoogle/android/gms/gcm/http/GoogleHttpService.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/maps/internal/CreatorImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/maps/internal/CreatorImpl.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/plus/plusone/PlusOneButtonCreatorImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/plus/plusone/PlusOneButtonCreatorImpl.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/recovery/RecoveryService.java -> play-services-core/src/main/java/com/mgoogle/android/gms/recovery/RecoveryService.java
+#	renamed:    play-services-core/src/main/java/com/google/android/gms/wallet/dynamite/WalletDynamiteCreatorImpl.java -> play-services-core/src/main/java/com/mgoogle/android/gms/wallet/dynamite/WalletDynamiteCreatorImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/AbstractGmsServiceBroker.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/BaseService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/DummyService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/ads/AdvertisingIdServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/ads/GService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/AccountContentProvider.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/AskPermissionActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/AuthManager.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/AuthManagerServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/SignInService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/login/AssistantActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/login/LoginActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/auth/loginservice/AccountAuthenticator.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/car/CarService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/checkin/CheckinManager.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/checkin/CheckinService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/clearcut/ClearcutLoggerService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/clearcut/ClearcutLoggerServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/common/DeviceConfiguration.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/common/NonCancelToken.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/common/PackageUtils.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/common/Utils.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/drive/api/DriveApiService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/drive/api/DriveServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/droidguard/DroidGuardService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/feedback/FeedbackService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/games/GamesStubService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/games/UpgradeActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/gcm/McsService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/gservices/GServices.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/gservices/GServicesProvider.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/AppDataSearchImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/GlobalSearchAdminImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/IndexService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/LightweightAppDataSearchImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/LightweightIndexService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/SearchCorporaImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/icing/SearchQueriesImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/GoogleLocationManager.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/GoogleLocationManagerService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/GoogleLocationManagerServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/LocationRequestHelper.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/ReportingAndroidService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/location/ReportingServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/BackendMap.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/BackendMapView.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/GmsMapsTypeHelper.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/GoogleMapImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/MapFragmentImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/MapViewImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/ProjectionImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/UiSettingsImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/bitmap/BitmapDescriptorFactoryImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/bitmap/BitmapDescriptorImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/bitmap/DefaultBitmapDescriptor.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/camera/CameraUpdateFactoryImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/CircleImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/GroundOverlayImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/InfoWindow.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/MarkerImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/MarkerItemMarkup.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/PolygonImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/PolylineImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/maps/markup/TileOverlayImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/people/PeopleService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/people/PeopleServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/places/GeoDataService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/places/PlaceDetectionService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/playlog/PlayLogService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/playlog/PlayLogServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/ui/PlacePickerActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/ui/SettingsActivity.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/ConfigurationDatabaseHelper.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/DataItemInternal.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/DataItemRecord.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/MessageHandler.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/NetworkConnectionThread.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/NodeDatabaseHelper.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/WearableImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/WearableService.java
+#	modified:   play-services-core/src/main/java/org/microg/gms/wearable/WearableServiceImpl.java
+#	modified:   play-services-core/src/main/java/org/microg/tools/selfcheck/InstalledPackagesChecks.java
+#	modified:   play-services-core/src/main/java/org/microg/tools/selfcheck/RomSpoofSignatureChecks.java
+#	modified:   play-services-core/src/main/protos-java/org/microg/gms/checkin/CheckinRequest.java
+#	modified:   play-services-core/src/main/protos-repo/checkin.proto
+#	modified:   play-services-core/src/main/res/values-de/strings.xml
+#	modified:   play-services-core/src/main/res/values-es/strings.xml
+#	modified:   play-services-core/src/main/res/values-pl/strings.xml
+#	modified:   play-services-core/src/main/res/values-ro/strings.xml
+#	modified:   play-services-core/src/main/res/values-sr/strings.xml
+#	modified:   play-services-core/src/main/res/values/strings.xml
+#	modified:   play-services-core/src/main/res/xml/gms_preferences.xml
+#	modified:   proguard.flags
+#	deleted:    safe-parcel
+#	modified:   settings.gradle
+#	deleted:    unifiednlp-api
+#	deleted:    unifiednlp-base
+#	deleted:    unifiednlp-compat
+#	deleted:    wearable-lib
+#
+# Changes not staged for commit:
+#	modified:   extern/GmsApi (modified content, untracked content)
+#	modified:   extern/MicroGUiTools (modified content)
+#	modified:   extern/UnifiedNlp (modified content)
+#	modified:   extern/UnifiedNlpApi (modified content)
+#

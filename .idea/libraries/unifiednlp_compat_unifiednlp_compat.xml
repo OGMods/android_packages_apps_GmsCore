@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="unifiednlp-compat.unifiednlp-compat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-compat/build/libs/unifiednlp-compat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

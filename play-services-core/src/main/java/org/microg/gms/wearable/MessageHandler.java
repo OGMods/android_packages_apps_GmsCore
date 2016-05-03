@@ -19,9 +19,9 @@ package org.microg.gms.wearable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.google.android.gms.wearable.Asset;
-import com.google.android.gms.wearable.ConnectionConfiguration;
-import com.google.android.gms.wearable.internal.MessageEventParcelable;
+import com.mgoogle.android.gms.wearable.Asset;
+import com.mgoogle.android.gms.wearable.ConnectionConfiguration;
+import com.mgoogle.android.gms.wearable.internal.MessageEventParcelable;
 
 import org.microg.gms.checkin.LastCheckinInfo;
 import org.microg.gms.common.Build;

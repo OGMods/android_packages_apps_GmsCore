@@ -20,9 +20,9 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
 
-import com.google.android.gms.wearable.Asset;
-import com.google.android.gms.wearable.internal.DataItemAssetParcelable;
-import com.google.android.gms.wearable.internal.DataItemParcelable;
+import com.mgoogle.android.gms.wearable.Asset;
+import com.mgoogle.android.gms.wearable.internal.DataItemAssetParcelable;
+import com.mgoogle.android.gms.wearable.internal.DataItemParcelable;
 
 import org.microg.wearable.proto.AssetEntry;
 import org.microg.wearable.proto.SetDataItem;

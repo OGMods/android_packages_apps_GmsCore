@@ -25,14 +25,14 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 
-import com.google.android.gms.common.data.DataHolder;
-import com.google.android.gms.wearable.Asset;
-import com.google.android.gms.wearable.ConnectionConfiguration;
-import com.google.android.gms.wearable.Node;
-import com.google.android.gms.wearable.internal.IWearableListener;
-import com.google.android.gms.wearable.internal.MessageEventParcelable;
-import com.google.android.gms.wearable.internal.NodeParcelable;
-import com.google.android.gms.wearable.internal.PutDataRequest;
+import com.mgoogle.android.gms.common.data.DataHolder;
+import com.mgoogle.android.gms.wearable.Asset;
+import com.mgoogle.android.gms.wearable.ConnectionConfiguration;
+import com.mgoogle.android.gms.wearable.Node;
+import com.mgoogle.android.gms.wearable.internal.IWearableListener;
+import com.mgoogle.android.gms.wearable.internal.MessageEventParcelable;
+import com.mgoogle.android.gms.wearable.internal.NodeParcelable;
+import com.mgoogle.android.gms.wearable.internal.PutDataRequest;
 
 import org.microg.gms.common.MultiListenerProxy;
 import org.microg.gms.common.PackageUtils;

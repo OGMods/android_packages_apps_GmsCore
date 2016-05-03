@@ -27,12 +27,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.dynamic.IObjectWrapper;
-import com.google.android.gms.dynamic.ObjectWrapper;
-import com.google.android.gms.maps.GoogleMapOptions;
-import com.google.android.gms.maps.internal.IGoogleMapDelegate;
-import com.google.android.gms.maps.internal.IMapFragmentDelegate;
-import com.google.android.gms.maps.internal.IOnMapReadyCallback;
+import com.mgoogle.android.gms.dynamic.IObjectWrapper;
+import com.mgoogle.android.gms.dynamic.ObjectWrapper;
+import com.mgoogle.android.gms.maps.GoogleMapOptions;
+import com.mgoogle.android.gms.maps.internal.IGoogleMapDelegate;
+import com.mgoogle.android.gms.maps.internal.IMapFragmentDelegate;
+import com.mgoogle.android.gms.maps.internal.IOnMapReadyCallback;
 
 public class MapFragmentImpl extends IMapFragmentDelegate.Stub {
     private static final String TAG = "GmsMapFragImpl";

@@ -17,13 +17,12 @@
 package org.microg.gms.maps.markup;
 
 import android.content.Context;
-import android.os.Build;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.google.android.gms.R;
-import com.google.android.gms.maps.model.internal.IMarkerDelegate;
+import com.mgoogle.android.gms.R;
+import com.mgoogle.android.gms.maps.model.internal.IMarkerDelegate;
 import org.microg.gms.maps.GoogleMapImpl;
 import org.microg.gms.maps.ResourcesContainer;
 

@@ -19,12 +19,12 @@ package org.microg.gms.maps.camera;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.dynamic.IObjectWrapper;
-import com.google.android.gms.dynamic.ObjectWrapper;
-import com.google.android.gms.maps.internal.ICameraUpdateFactoryDelegate;
-import com.google.android.gms.maps.model.CameraPosition;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
+import com.mgoogle.android.gms.dynamic.IObjectWrapper;
+import com.mgoogle.android.gms.dynamic.ObjectWrapper;
+import com.mgoogle.android.gms.maps.internal.ICameraUpdateFactoryDelegate;
+import com.mgoogle.android.gms.maps.model.CameraPosition;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.LatLngBounds;
 
 import org.microg.gms.maps.GmsMapsTypeHelper;
 import org.oscim.core.MapPosition;

@@ -28,12 +28,12 @@ import android.support.v7.app.NotificationCompat;
 import android.util.Base64;
 import android.util.Log;
 
-import com.google.android.auth.IAuthManagerService;
-import com.google.android.gms.R;
-import com.google.android.gms.auth.AccountChangeEventsRequest;
-import com.google.android.gms.auth.AccountChangeEventsResponse;
-import com.google.android.gms.auth.TokenData;
-import com.google.android.gms.common.api.Scope;
+import com.mgoogle.android.auth.IAuthManagerService;
+import com.mgoogle.android.gms.R;
+import com.mgoogle.android.gms.auth.AccountChangeEventsRequest;
+import com.mgoogle.android.gms.auth.AccountChangeEventsResponse;
+import com.mgoogle.android.gms.auth.TokenData;
+import com.mgoogle.android.gms.common.api.Scope;
 
 import org.microg.gms.common.PackageUtils;
 

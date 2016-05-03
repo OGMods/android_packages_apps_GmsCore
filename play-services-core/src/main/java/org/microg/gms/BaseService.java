@@ -22,9 +22,9 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
-import com.google.android.gms.common.internal.IGmsServiceBroker;
+import com.mgoogle.android.gms.common.internal.GetServiceRequest;
+import com.mgoogle.android.gms.common.internal.IGmsCallbacks;
+import com.mgoogle.android.gms.common.internal.IGmsServiceBroker;
 
 import org.microg.gms.common.GmsService;
 

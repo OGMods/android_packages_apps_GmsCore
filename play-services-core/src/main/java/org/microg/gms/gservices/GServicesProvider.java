@@ -31,14 +31,14 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Originally found in Google Services Framework (com.google.android.gsf), this provides a generic
+ * Originally found in Google Services Framework (com.mgoogle.android.gsf), this provides a generic
  * key-value store, that is written by the checkin service and read from various Google Apps.
  * <p/>
  * Google uses the checkin process to store various device or country specific settings and
  * if certain "experiments" are enabled on the device.
  */
 public class GServicesProvider extends ContentProvider {
-    public static final Uri CONTENT_URI = Uri.parse("content://com.google.android.gsf.gservices/");
+    public static final Uri CONTENT_URI = Uri.parse("content://com.mgoogle.android.gsf.gservices/");
     public static final Uri MAIN_URI = Uri.withAppendedPath(CONTENT_URI, "main");
     public static final Uri OVERRIDE_URI = Uri.withAppendedPath(CONTENT_URI, "override");
     public static final Uri PREFIX_URI = Uri.withAppendedPath(CONTENT_URI, "prefix");

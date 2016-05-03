@@ -18,7 +18,7 @@ package org.microg.gms.wearable;
 
 import android.net.Uri;
 
-import com.google.android.gms.wearable.Asset;
+import com.mgoogle.android.gms.wearable.Asset;
 
 import java.util.Collections;
 import java.util.HashMap;

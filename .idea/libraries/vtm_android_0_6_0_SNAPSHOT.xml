@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="vtm-android-0.6.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/play-services-core/build/intermediates/exploded-aar/org.oscim/vtm-android/0.6.0-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/play-services-core/build/intermediates/exploded-aar/org.oscim/vtm-android/0.6.0-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

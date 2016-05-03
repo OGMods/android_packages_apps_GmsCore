@@ -23,7 +23,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 
-import com.google.android.gms.wearable.Asset;
+import com.mgoogle.android.gms.wearable.Asset;
 
 import java.util.Map;
 

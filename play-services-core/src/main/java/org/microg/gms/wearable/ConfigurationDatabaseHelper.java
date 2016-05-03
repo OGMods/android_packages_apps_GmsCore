@@ -22,11 +22,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.google.android.gms.wearable.ConnectionConfiguration;
+import com.mgoogle.android.gms.wearable.ConnectionConfiguration;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class ConfigurationDatabaseHelper extends SQLiteOpenHelper {
 

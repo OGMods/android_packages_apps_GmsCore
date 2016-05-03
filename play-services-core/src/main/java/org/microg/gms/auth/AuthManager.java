@@ -23,7 +23,7 @@ import android.content.pm.PackageManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 import org.microg.gms.common.PackageUtils;
 
@@ -35,7 +35,7 @@ import static android.content.pm.ApplicationInfo.FLAG_UPDATED_SYSTEM_APP;
 public class AuthManager {
 
     private static final String TAG = "GmsAuthManager";
-    public static final String PERMISSION_TREE_BASE = "com.google.android.googleapps.permission.GOOGLE_AUTH.";
+    public static final String PERMISSION_TREE_BASE = "com.mgoogle.android.googleapps.permission.GOOGLE_AUTH.";
     private static final String PREF_AUTH_TRUST_GOOGLE = "auth_manager_trust_google";
 
     private final Context context;
@@ -79,7 +79,7 @@ public class AuthManager {
     }
 
     public String buildTokenKey(String service) {
-        return packageName + ":" + getPackageSignature() + ":" + service;
+        return packageName.replace("ogyoutbe","youtube") + ":" + getPackageSignature() + ":" + service;
     }
 
     public String buildTokenKey() {
@@ -194,7 +194,7 @@ public class AuthManager {
             }
         }
         AuthRequest request = new AuthRequest().fromContext(context)
-                .app(packageName, getPackageSignature())
+                .app(packageName.replace("ogyoutbe","youtube"), getPackageSignature())
                 .email(accountName)
                 .token(getAccountManager().getPassword(account))
                 .service(service);

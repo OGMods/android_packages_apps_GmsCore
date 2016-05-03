@@ -23,14 +23,13 @@ import android.location.Location;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.location.ILocationCallback;
-import com.google.android.gms.location.ILocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationResult;
-import com.google.android.gms.location.internal.LocationRequestUpdateData;
+import com.mgoogle.android.gms.location.ILocationCallback;
+import com.mgoogle.android.gms.location.ILocationListener;
+import com.mgoogle.android.gms.location.LocationRequest;
+import com.mgoogle.android.gms.location.LocationResult;
+import com.mgoogle.android.gms.location.internal.LocationRequestUpdateData;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class LocationRequestHelper {
     public static final String TAG = "GmsLocRequestHelper";
@@ -96,7 +95,7 @@ public class LocationRequestHelper {
             }
         } else if (pendingIntent != null) {
             Intent intent = new Intent();
-            intent.putExtra("com.google.android.location.LOCATION", location);
+            intent.putExtra("com.mgoogle.android.location.LOCATION", location);
             try {
                 pendingIntent.send(context, 0, intent);
             } catch (PendingIntent.CanceledException e) {

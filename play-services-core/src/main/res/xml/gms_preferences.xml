@@ -45,7 +45,7 @@
         <Preference android:title="@string/nlp_settings_label">
             <intent
                 android:targetClass="org.microg.nlp.ui.SettingsActivity"
-                android:targetPackage="com.google.android.gms"/>
+                android:targetPackage="com.mgoogle.android.gms"/>
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/prefcat_about">

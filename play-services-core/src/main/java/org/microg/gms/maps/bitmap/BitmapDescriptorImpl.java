@@ -20,9 +20,9 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
 
-import com.google.android.gms.dynamic.IObjectWrapper;
-import com.google.android.gms.dynamic.ObjectWrapper;
-import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.mgoogle.android.gms.dynamic.IObjectWrapper;
+import com.mgoogle.android.gms.dynamic.ObjectWrapper;
+import com.mgoogle.android.gms.maps.model.BitmapDescriptor;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -18,7 +18,7 @@ package org.microg.gms.common;
 
 import android.os.RemoteException;
 
-import com.google.android.gms.common.internal.ICancelToken;
+import com.mgoogle.android.gms.common.internal.ICancelToken;
 
 public class NonCancelToken extends ICancelToken.Stub {
     @Override

@@ -86,7 +86,7 @@ public class McsService extends Service implements Handler.Callback {
     public static final String PREFERENCES_NAME = "mcs";
     public static final String PREF_LAST_PERSISTENT_ID = "last_persistent_id";
 
-    public static final String SELF_CATEGORY = "com.google.android.gsf.gtalkservice";
+    public static final String SELF_CATEGORY = "com.mgoogle.android.gsf.gtalkservice";
     public static final String IDLE_NOTIFICATION = "IdleNotification";
     public static final String FROM_FIELD = "gcm@android.com";
 

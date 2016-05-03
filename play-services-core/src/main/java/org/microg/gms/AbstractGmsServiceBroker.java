@@ -23,11 +23,11 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Scope;
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
-import com.google.android.gms.common.internal.IGmsServiceBroker;
-import com.google.android.gms.common.internal.ValidateAccountRequest;
+import com.mgoogle.android.gms.common.api.Scope;
+import com.mgoogle.android.gms.common.internal.GetServiceRequest;
+import com.mgoogle.android.gms.common.internal.IGmsCallbacks;
+import com.mgoogle.android.gms.common.internal.IGmsServiceBroker;
+import com.mgoogle.android.gms.common.internal.ValidateAccountRequest;
 
 import org.microg.gms.common.GmsService;
 
@@ -106,9 +106,9 @@ public abstract class AbstractGmsServiceBroker extends IGmsServiceBroker.Stub {
                                 IBinder popupWindowToken, String desiredLocale, Bundle params)
             throws RemoteException {
         Bundle extras = params == null ? new Bundle() : params;
-        extras.putString("com.google.android.gms.games.key.gamePackageName", gamePackageName);
-        extras.putString("com.google.android.gms.games.key.desiredLocale", desiredLocale);
-        //extras.putParcelable("com.google.android.gms.games.key.popupWindowToken", popupWindowToken);
+        extras.putString("com.mgoogle.android.gms.games.key.gamePackageName", gamePackageName);
+        extras.putString("com.mgoogle.android.gms.games.key.desiredLocale", desiredLocale);
+        //extras.putParcelable("com.mgoogle.android.gms.games.key.popupWindowToken", popupWindowToken);
         callGetService(GmsService.GAMES, callback, versionCode, packageName, extras, accountName, scopes);
     }
 
@@ -238,7 +238,7 @@ public abstract class AbstractGmsServiceBroker extends IGmsServiceBroker.Stub {
         request.gmsVersion = gmsVersion;
         request.packageName = packageName;
         request.extras = extras;
-        request.account = accountName == null ? null : new Account(accountName, "com.google");
+        request.account = accountName == null ? null : new Account(accountName, "com.mgoogle");
         request.scopes = scopes == null ? null : scopesFromStringArray(scopes);
         getService(callback, request);
     }

@@ -71,7 +71,7 @@ public class DeviceConfiguration {
         String[] systemSharedLibraryNames = packageManager.getSystemSharedLibraryNames();
         sharedLibraries = new ArrayList<String>();
         if (systemSharedLibraryNames != null) sharedLibraries.addAll(Arrays.asList(systemSharedLibraryNames));
-        for (String s : new String[]{"com.google.android.maps", "com.google.android.media.effects", "com.google.widevine.software.drm"}) {
+        for (String s : new String[]{"com.mgoogle.android.maps", "com.mgoogle.android.media.effects", "com.mgoogle.widevine.software.drm"}) {
             if (!sharedLibraries.contains(s)) {
                 sharedLibraries.add(s);
             }

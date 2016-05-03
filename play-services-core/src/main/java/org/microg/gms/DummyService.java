@@ -18,9 +18,9 @@ package org.microg.gms;
 
 import android.os.RemoteException;
 
-import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
+import com.mgoogle.android.gms.common.api.CommonStatusCodes;
+import com.mgoogle.android.gms.common.internal.GetServiceRequest;
+import com.mgoogle.android.gms.common.internal.IGmsCallbacks;
 
 import org.microg.gms.common.GmsService;
 

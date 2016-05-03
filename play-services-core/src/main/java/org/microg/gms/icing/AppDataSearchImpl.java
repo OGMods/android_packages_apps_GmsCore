@@ -20,12 +20,12 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.appdatasearch.CorpusStatus;
-import com.google.android.gms.appdatasearch.PIMEUpdateResponse;
-import com.google.android.gms.appdatasearch.RequestIndexingSpecification;
-import com.google.android.gms.appdatasearch.SuggestSpecification;
-import com.google.android.gms.appdatasearch.SuggestionResults;
-import com.google.android.gms.appdatasearch.internal.IAppDataSearch;
+import com.mgoogle.android.gms.appdatasearch.CorpusStatus;
+import com.mgoogle.android.gms.appdatasearch.PIMEUpdateResponse;
+import com.mgoogle.android.gms.appdatasearch.RequestIndexingSpecification;
+import com.mgoogle.android.gms.appdatasearch.SuggestSpecification;
+import com.mgoogle.android.gms.appdatasearch.SuggestionResults;
+import com.mgoogle.android.gms.appdatasearch.internal.IAppDataSearch;
 
 public class AppDataSearchImpl extends IAppDataSearch.Stub {
     private static final String TAG = "GmsIcingAppDataImpl";

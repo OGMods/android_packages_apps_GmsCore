@@ -20,7 +20,7 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.search.global.internal.IGlobalSearchAdminService;
+import com.mgoogle.android.gms.search.global.internal.IGlobalSearchAdminService;
 
 public class GlobalSearchAdminImpl extends IGlobalSearchAdminService.Stub {
     private static final String TAG = "GmsIcingGlobalImpl";

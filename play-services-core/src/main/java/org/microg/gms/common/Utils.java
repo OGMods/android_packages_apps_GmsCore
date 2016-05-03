@@ -16,12 +16,11 @@
 
 package org.microg.gms.common;
 
-import android.Manifest;
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 import org.microg.gms.checkin.LastCheckinInfo;
 

@@ -22,7 +22,7 @@ import android.graphics.BitmapFactory;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 import org.microg.gms.maps.data.SharedTileCache;
 import org.microg.gms.maps.markup.ClearableVectorLayer;

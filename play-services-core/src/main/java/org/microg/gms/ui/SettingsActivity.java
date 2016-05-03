@@ -25,7 +25,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 import org.microg.tools.selfcheck.InstalledPackagesChecks;
 import org.microg.tools.selfcheck.NlpOsCompatChecks;

@@ -19,9 +19,9 @@ package org.microg.gms.maps.markup;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.android.gms.maps.model.internal.IPolylineDelegate;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.PolylineOptions;
+import com.mgoogle.android.gms.maps.model.internal.IPolylineDelegate;
 
 import org.microg.gms.maps.GmsMapsTypeHelper;
 import org.oscim.core.GeoPoint;

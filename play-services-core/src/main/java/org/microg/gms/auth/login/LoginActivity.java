@@ -41,7 +41,7 @@ import android.webkit.WebViewClient;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
 import org.json.JSONArray;
 import org.microg.gms.auth.AuthManager;

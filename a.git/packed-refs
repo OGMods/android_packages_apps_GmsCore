@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+27866d08cf48598895de19be40135ed1ccbafa99 refs/tags/pre-vtm
+501866bb7d930cf6397ecb1576df4bf70108b648 refs/tags/v0.01
+fbfb6c088ab2a066b46fffc93ebd4ec23a0b6f6c refs/tags/v0.2.0
+faa214c64373ee9fa8ca0ade9c79a747979b757e refs/tags/v0.2.1
+ddbd3d503597cf8d6a0725f8b960673a1045814e refs/tags/v0.2.2

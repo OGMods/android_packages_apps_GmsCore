@@ -18,9 +18,9 @@ package org.microg.gms.maps.markup;
 
 import android.os.RemoteException;
 
-import com.google.android.gms.maps.model.CircleOptions;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.internal.ICircleDelegate;
+import com.mgoogle.android.gms.maps.model.CircleOptions;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.internal.ICircleDelegate;
 
 import org.microg.gms.maps.GmsMapsTypeHelper;
 import org.oscim.layers.vector.geometries.CircleDrawable;

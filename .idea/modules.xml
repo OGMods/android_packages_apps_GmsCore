@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_packages_apps_GmsCore.iml" filepath="$PROJECT_DIR$/android_packages_apps_GmsCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/MicroGUiTools/microg-ui-tools/microg-ui-tools.iml" filepath="$PROJECT_DIR$/extern/MicroGUiTools/microg-ui-tools/microg-ui-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/GmsApi/play-services-api/play-services-api.iml" filepath="$PROJECT_DIR$/extern/GmsApi/play-services-api/play-services-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play-services-core/play-services-core.iml" filepath="$PROJECT_DIR$/play-services-core/play-services-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/GmsApi/extern/SafeParcel/safe-parcel/safe-parcel.iml" filepath="$PROJECT_DIR$/extern/GmsApi/extern/SafeParcel/safe-parcel/safe-parcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/UnifiedNlpApi/unifiednlp-api/unifiednlp-api.iml" filepath="$PROJECT_DIR$/extern/UnifiedNlpApi/unifiednlp-api/unifiednlp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-app/unifiednlp-app.iml" filepath="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-app/unifiednlp-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-base/unifiednlp-base.iml" filepath="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-base/unifiednlp-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-compat/unifiednlp-compat.iml" filepath="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-compat/unifiednlp-compat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extern/Wearable/wearable-lib/wearable-lib.iml" filepath="$PROJECT_DIR$/extern/Wearable/wearable-lib/wearable-lib.iml" />
+    </modules>
+  </component>
+</project>

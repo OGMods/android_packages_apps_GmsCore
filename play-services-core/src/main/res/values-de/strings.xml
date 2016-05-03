@@ -17,7 +17,6 @@
 <resources>
     <string name="gms_app_name">microG Services Core</string>
     <string name="just_a_sec">Einen kurzen Moment…</string>
-    <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Durch Fortsetzen erlaubst du dieser App und Google deine Informationen nach ihren entsprechenden AGB und Datenschutzrichtlinien zu nutzen.</string>
     <string name="ask_scope_permission_title">%s versucht:</string>
     <string name="ask_service_permission_title">%s versucht zu nutzen:</string>

@@ -19,10 +19,10 @@ package org.microg.gms.clearcut;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.clearcut.LogEventParcelable;
-import com.google.android.gms.clearcut.internal.IClearcutLoggerCallbacks;
-import com.google.android.gms.clearcut.internal.IClearcutLoggerService;
-import com.google.android.gms.common.api.Status;
+import com.mgoogle.android.gms.clearcut.LogEventParcelable;
+import com.mgoogle.android.gms.clearcut.internal.IClearcutLoggerCallbacks;
+import com.mgoogle.android.gms.clearcut.internal.IClearcutLoggerService;
+import com.mgoogle.android.gms.common.api.Status;
 
 public class ClearcutLoggerServiceImpl extends IClearcutLoggerService.Stub {
     private static final String TAG = "GmsClearcutLogSvcImpl";

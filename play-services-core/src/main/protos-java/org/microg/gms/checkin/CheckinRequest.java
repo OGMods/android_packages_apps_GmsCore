@@ -1338,8 +1338,8 @@ public final class CheckinRequest extends Message {
     /**
      * PackageManager.getSystemSharedLibraryNames
      * eg. "android.test.runner", "com.android.future.usb.accessory", "com.android.location.provider",
-     *     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.google.android.maps",
-     *     "com.google.android.media.effects", "com.google.widevine.software.drm", "javax.obex"
+     *     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.mgoogle.android.maps",
+     *     "com.mgoogle.android.media.effects", "com.mgoogle.widevine.software.drm", "javax.obex"
      */
     @ProtoField(tag = 9, type = STRING, label = REPEATED)
     public final List<String> sharedLibrary;
@@ -1593,8 +1593,8 @@ public final class CheckinRequest extends Message {
       /**
        * PackageManager.getSystemSharedLibraryNames
        * eg. "android.test.runner", "com.android.future.usb.accessory", "com.android.location.provider",
-       *     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.google.android.maps",
-       *     "com.google.android.media.effects", "com.google.widevine.software.drm", "javax.obex"
+       *     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.mgoogle.android.maps",
+       *     "com.mgoogle.android.media.effects", "com.mgoogle.widevine.software.drm", "javax.obex"
        */
       public Builder sharedLibrary(List<String> sharedLibrary) {
         this.sharedLibrary = checkForNulls(sharedLibrary);

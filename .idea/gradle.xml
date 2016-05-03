@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/extern/GmsApi/extern/SafeParcel/safe-parcel" />
+            <option value="$PROJECT_DIR$/extern/GmsApi/play-services-api" />
+            <option value="$PROJECT_DIR$/extern/MicroGUiTools/microg-ui-tools" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-app" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-base" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-compat" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlpApi/unifiednlp-api" />
+            <option value="$PROJECT_DIR$/extern/Wearable/wearable-lib" />
+            <option value="$PROJECT_DIR$/play-services-core" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/extern/GmsApi/extern/SafeParcel/safe-parcel" />
+            <option value="$PROJECT_DIR$/extern/GmsApi/play-services-api" />
+            <option value="$PROJECT_DIR$/extern/MicroGUiTools/microg-ui-tools" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-app" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-base" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlp/unifiednlp-compat" />
+            <option value="$PROJECT_DIR$/extern/UnifiedNlpApi/unifiednlp-api" />
+            <option value="$PROJECT_DIR$/extern/Wearable/wearable-lib" />
+            <option value="$PROJECT_DIR$/play-services-core" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -18,7 +18,7 @@ package org.microg.gms.ads;
 
 import android.os.RemoteException;
 
-import com.google.android.gms.ads.identifier.internal.IAdvertisingIdService;
+import com.mgoogle.android.gms.ads.identifier.internal.IAdvertisingIdService;
 
 import java.util.UUID;
 

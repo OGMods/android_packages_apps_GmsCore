@@ -21,9 +21,8 @@ import android.accounts.AccountManager;
 import android.content.ContentResolver;
 import android.content.Context;
 
-import com.google.android.gms.R;
+import com.mgoogle.android.gms.R;
 
-import org.microg.gms.auth.AuthManager;
 import org.microg.gms.auth.AuthRequest;
 import org.microg.gms.common.Constants;
 import org.microg.gms.common.DeviceConfiguration;
@@ -50,7 +49,7 @@ public class CheckinManager {
             String token = new AuthRequest()
                     .email(account.name).token(accountManager.getPassword(account))
                     .hasPermission().service("ac2dm")
-                    .app("com.google.android.gsf", Constants.GMS_PACKAGE_SIGNATURE_SHA1)
+                    .app("com.mgoogle.android.gsf", Constants.GMS_PACKAGE_SIGNATURE_SHA1)
                     .getResponse().LSid;
             if (token != null) {
                 accounts.add(new CheckinClient.Account(account.name, token));

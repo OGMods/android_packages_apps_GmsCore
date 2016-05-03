@@ -21,9 +21,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.RemoteException;
 
-import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
+import com.mgoogle.android.gms.common.api.CommonStatusCodes;
+import com.mgoogle.android.gms.common.internal.GetServiceRequest;
+import com.mgoogle.android.gms.common.internal.IGmsCallbacks;
 
 import org.microg.gms.BaseService;
 import org.microg.gms.common.GmsService;
@@ -35,7 +35,7 @@ import static org.microg.gms.games.UpgradeActivity.EXTRA_GAME_PACACKE_NAME;
 
 public class GamesStubService extends BaseService {
 
-    public static final String PARAM_GAME_PACKAGE_NAME = "com.google.android.gms.games.key.gamePackageName";
+    public static final String PARAM_GAME_PACKAGE_NAME = "com.mgoogle.android.gms.games.key.gamePackageName";
 
     public GamesStubService() {
         super("GmsGamesSvc", GmsService.GAMES);

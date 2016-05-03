@@ -16,8 +16,8 @@
 
 package org.microg.gms.feedback;
 
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
+import com.mgoogle.android.gms.common.internal.GetServiceRequest;
+import com.mgoogle.android.gms.common.internal.IGmsCallbacks;
 
 import org.microg.gms.BaseService;
 import org.microg.gms.common.GmsService;

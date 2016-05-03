@@ -18,10 +18,10 @@
     <string name="gms_app_name">microG Services Core</string>
     <string name="gms_settings_name">microG Settings</string>
 
-    <string name="google_account_type" translatable="false">com.google</string>
+    <string name="google_account_type" translatable="false">com.mgoogle</string>
 
     <string name="just_a_sec">Just a sec…</string>
-    <string name="google_account_label">Google</string>
+    <string name="google_account_label">MGoogle</string>
     <string name="ask_permission_tos">By continuing, you allow this app and Google to use your information in accordance with their respective terms of service and privacy policies.</string>
     <string name="ask_scope_permission_title">%1$s would like to:</string>
     <string name="ask_service_permission_title">%1$s would like to use:</string>

@@ -2,6 +2,7 @@ include ':safe-parcel'
 
 include ':wearable-lib'
 
+include ':unifiednlp-app'
 include ':unifiednlp-api'
 include ':unifiednlp-base'
 include ':unifiednlp-compat'
@@ -10,3 +11,12 @@ include ':play-services-api'
 include ':play-services-core'
 
 include ':microg-ui-tools'
+
+project(':safe-parcel').projectDir = new File('/extern/GmsApi/extern/SafeParcel/safe-parcel')
+project(':wearable-lib').projectDir = new File('/extern/Wearable/wearable-lib')
+project(':unifiednlp-api').projectDir = new File('/extern/UnifiedNlpApi/unifiednlp-api')
+project(':unifiednlp-app').projectDir = new File('/extern/UnifiedNlp/unifiednlp-app')
+project(':unifiednlp-base').projectDir = new File('/extern/UnifiedNlp/unifiednlp-base')
+project(':unifiednlp-compat').projectDir = new File('/extern/UnifiedNlp/unifiednlp-compat')
+project(':play-services-api').projectDir = new File('/extern/GmsApi/play-services-api')
+project(':microg-ui-tools').projectDir = new File('/extern/MicroGUiTools/microg-ui-tools')

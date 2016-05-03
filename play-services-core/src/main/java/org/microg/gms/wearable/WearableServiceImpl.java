@@ -22,21 +22,21 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.wearable.ConnectionConfiguration;
-import com.google.android.gms.wearable.internal.AddListenerRequest;
-import com.google.android.gms.wearable.internal.DeleteDataItemsResponse;
-import com.google.android.gms.wearable.internal.GetConfigResponse;
-import com.google.android.gms.wearable.internal.GetConfigsResponse;
-import com.google.android.gms.wearable.internal.GetConnectedNodesResponse;
-import com.google.android.gms.wearable.internal.GetDataItemResponse;
-import com.google.android.gms.wearable.internal.GetLocalNodeResponse;
-import com.google.android.gms.wearable.internal.IWearableCallbacks;
-import com.google.android.gms.wearable.internal.IWearableService;
-import com.google.android.gms.wearable.internal.NodeParcelable;
-import com.google.android.gms.wearable.internal.PutDataRequest;
-import com.google.android.gms.wearable.internal.PutDataResponse;
-import com.google.android.gms.wearable.internal.RemoveListenerRequest;
+import com.mgoogle.android.gms.common.api.Status;
+import com.mgoogle.android.gms.wearable.ConnectionConfiguration;
+import com.mgoogle.android.gms.wearable.internal.AddListenerRequest;
+import com.mgoogle.android.gms.wearable.internal.DeleteDataItemsResponse;
+import com.mgoogle.android.gms.wearable.internal.GetConfigResponse;
+import com.mgoogle.android.gms.wearable.internal.GetConfigsResponse;
+import com.mgoogle.android.gms.wearable.internal.GetConnectedNodesResponse;
+import com.mgoogle.android.gms.wearable.internal.GetDataItemResponse;
+import com.mgoogle.android.gms.wearable.internal.GetLocalNodeResponse;
+import com.mgoogle.android.gms.wearable.internal.IWearableCallbacks;
+import com.mgoogle.android.gms.wearable.internal.IWearableService;
+import com.mgoogle.android.gms.wearable.internal.NodeParcelable;
+import com.mgoogle.android.gms.wearable.internal.PutDataRequest;
+import com.mgoogle.android.gms.wearable.internal.PutDataResponse;
+import com.mgoogle.android.gms.wearable.internal.RemoveListenerRequest;
 
 public class WearableServiceImpl extends IWearableService.Stub {
     private static final String TAG = "GmsWearSvcImpl";

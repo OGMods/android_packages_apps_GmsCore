@@ -17,11 +17,11 @@
 package org.microg.gms.maps.markup;
 
 import android.os.RemoteException;
-import com.google.android.gms.dynamic.IObjectWrapper;
-import com.google.android.gms.maps.model.GroundOverlayOptions;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
-import com.google.android.gms.maps.model.internal.IGroundOverlayDelegate;
+import com.mgoogle.android.gms.dynamic.IObjectWrapper;
+import com.mgoogle.android.gms.maps.model.GroundOverlayOptions;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.LatLngBounds;
+import com.mgoogle.android.gms.maps.model.internal.IGroundOverlayDelegate;
 
 public class GroundOverlayImpl extends IGroundOverlayDelegate.Stub {
     private LatLng position;

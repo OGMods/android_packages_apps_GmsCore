@@ -21,8 +21,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Binder;
+import android.util.Log;
 
-import com.google.android.gms.Manifest;
+import com.mgoogle.android.gms.Manifest;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -76,6 +77,8 @@ public class PackageUtils {
     }
 
     public static String firstSignatureDigest(Context context, String packageName) {
+        if (packageName.equals("com.google.android.youtube")||packageName.equals("com.google.android.ogyoutube"))
+            return "24bb24c05e47e0aefa68a58a766179d9b613a600"; // TODO
         PackageManager packageManager = context.getPackageManager();
         final PackageInfo info;
         try {
@@ -87,6 +90,7 @@ public class PackageUtils {
             for (Signature sig : info.signatures) {
                 String digest = sha1sum(sig.toByteArray());
                 if (digest != null) {
+                    Log.d("OGMods","Pkg:"+ packageName +",Sig:"+ digest);
                     return digest;
                 }
             }

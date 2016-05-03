@@ -21,10 +21,10 @@ import android.graphics.Bitmap;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.dynamic.IObjectWrapper;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.internal.IMarkerDelegate;
+import com.mgoogle.android.gms.dynamic.IObjectWrapper;
+import com.mgoogle.android.gms.maps.model.LatLng;
+import com.mgoogle.android.gms.maps.model.MarkerOptions;
+import com.mgoogle.android.gms.maps.model.internal.IMarkerDelegate;
 
 import org.microg.gms.maps.GmsMapsTypeHelper;
 import org.microg.gms.maps.bitmap.BitmapDescriptorImpl;

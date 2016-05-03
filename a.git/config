@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[branch "master"]
+[submodule "extern/GmsApi"]
+	url = https://github.com/microg/android_external_GmsApi.git
+[submodule "extern/UnifiedNlp"]
+	url = https://github.com/microg/android_packages_apps_UnifiedNlp.git
+[submodule "extern/Wearable"]
+	url = https://github.com/microg/android_external_Wearable.git
+[remote "origin"]
+	url = https://github.com/OGMods/android_packages_apps_GmsCore.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

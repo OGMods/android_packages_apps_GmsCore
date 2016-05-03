@@ -21,13 +21,10 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationManager;
-import android.support.v4.content.ContextCompat;
-import android.widget.Toast;
 
-import com.google.android.gms.R;
-import com.google.android.gms.location.ILocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.internal.LocationRequestUpdateData;
+import com.mgoogle.android.gms.location.ILocationListener;
+import com.mgoogle.android.gms.location.LocationRequest;
+import com.mgoogle.android.gms.location.internal.LocationRequestUpdateData;
 
 import org.microg.gms.common.Utils;
 
@@ -39,8 +36,8 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static android.location.LocationManager.GPS_PROVIDER;
 import static android.location.LocationManager.NETWORK_PROVIDER;
-import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
-import static com.google.android.gms.location.LocationRequest.PRIORITY_NO_POWER;
+import static com.mgoogle.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
+import static com.mgoogle.android.gms.location.LocationRequest.PRIORITY_NO_POWER;
 
 public class GoogleLocationManager implements LocationChangeListener {
     private static final String MOCK_PROVIDER = "mock";

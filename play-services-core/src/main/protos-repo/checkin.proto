@@ -190,8 +190,8 @@ message CheckinRequest {
 
         // PackageManager.getSystemSharedLibraryNames
         // eg. "android.test.runner", "com.android.future.usb.accessory", "com.android.location.provider",
-        //     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.google.android.maps",
-        //     "com.google.android.media.effects", "com.google.widevine.software.drm", "javax.obex"
+        //     "com.android.media.remotedisplay", "com.android.mediadrm.signer", "com.mgoogle.android.maps",
+        //     "com.mgoogle.android.media.effects", "com.mgoogle.widevine.software.drm", "javax.obex"
         repeated string sharedLibrary = 9;
 
         // PackageManager.getSystemAvailableFeatures

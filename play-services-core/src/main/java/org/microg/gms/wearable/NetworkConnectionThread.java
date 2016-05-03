@@ -18,7 +18,7 @@ package org.microg.gms.wearable;
 
 import android.util.Log;
 
-import com.google.android.gms.wearable.ConnectionConfiguration;
+import com.mgoogle.android.gms.wearable.ConnectionConfiguration;
 
 import org.microg.wearable.SocketWearableConnection;
 import org.microg.wearable.WearableConnection;

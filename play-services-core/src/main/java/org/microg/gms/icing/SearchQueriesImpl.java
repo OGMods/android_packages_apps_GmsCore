@@ -20,11 +20,11 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.search.queries.QueryRequest;
-import com.google.android.gms.search.queries.QueryResponse;
-import com.google.android.gms.search.queries.internal.ISearchQueriesCallbacks;
-import com.google.android.gms.search.queries.internal.ISearchQueriesService;
+import com.mgoogle.android.gms.common.api.Status;
+import com.mgoogle.android.gms.search.queries.QueryRequest;
+import com.mgoogle.android.gms.search.queries.QueryResponse;
+import com.mgoogle.android.gms.search.queries.internal.ISearchQueriesCallbacks;
+import com.mgoogle.android.gms.search.queries.internal.ISearchQueriesService;
 
 public class SearchQueriesImpl extends ISearchQueriesService.Stub {
     private static final String TAG = "GmsIcingQueriesImpl";

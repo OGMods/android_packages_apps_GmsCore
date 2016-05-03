@@ -17,9 +17,9 @@
 -dontnote
 
 # Keep dynamically loaded GMS classes
--keep public class com.google.android.gms.maps.internal.CreatorImpl { public *; }
--keep public class com.google.android.gms.common.security.ProviderInstallerImpl { public *; }
--keep public class com.google.android.gms.plus.plusone.PlusOneButtonCreatorImpl { public *; }
+-keep public class com.mgoogle.android.gms.maps.internal.CreatorImpl { public *; }
+-keep public class com.mgoogle.android.gms.common.security.ProviderInstallerImpl { public *; }
+-keep public class com.mgoogle.android.gms.plus.plusone.PlusOneButtonCreatorImpl { public *; }
 
 # Keep AutoSafeParcelables
 -keep public class * extends org.microg.safeparcel.AutoSafeParcelable {
